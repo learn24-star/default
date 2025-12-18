@@ -1,7 +1,9 @@
 __pycache__/
 *.pyc
 *.pyo
+# Ignore json except in results folder
 *.json
+!results/*.json
 *.egg-info/
 dist/
 build/
